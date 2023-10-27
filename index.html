@@ -8,6 +8,10 @@
             body { text-align: center; padding: 10%; font: 20px Helvetica, sans-serif; color: #333; }
             h1 { font-size: 50px; margin: 0; }
             article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
+            .img-center{
+                width: auto;
+                height: 100px;
+            }
             a { color: #dc8100; text-decoration: none; }
             a:hover { color: #333; text-decoration: none; }
             @media only screen and (max-width : 480px) {
@@ -17,10 +21,11 @@
     </head>
     <body>
         <article>
-            <h1>Site is temporarily unavailable.</h1>
-            <p>Scheduled maintenance is currently in progress. Please check back soon.</p>
+            <img src="logo.png" class="img-center" alt="">
+            <p>Currently this system is down for routine maintenance</p>
+            <p>It will be up again 6pm QLD time, please try again later</p>
             <p>We apologize for any inconvenience.</p>
-            <p id="signature">&mdash; <a href="mailto:[Email]">[Name]</a></p>
+            <!-- <p id="signature">&mdash; <a href="mailto:[Email]">[Name]</a></p> -->
         </article>
     </body>
 </html>
